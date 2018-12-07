@@ -13,12 +13,12 @@ fun main(args: Array<String>) {
         for (i in startNumber..endNumber) {
             for (j in startNumber..endNumber) {
                 nArray.add(6*i*j + i + j)
+                nArray.add(6*i*j + i - j)
+                nArray.add(6*i*j - i - j)
             }
         }
         
         nArray.sort()
-        
-        println(nArray)
         
         var prev: Int = nArray[0]
         var k = 1
@@ -29,8 +29,6 @@ fun main(args: Array<String>) {
             prev = nArray[k]
             k++
         }
-        
-        println(nArray)
         
         for (m in 1..(nArray.size-2)){
             if (nArray[m] + 1 == nArray[m+1]) {
