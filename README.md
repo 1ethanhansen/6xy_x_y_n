@@ -1,5 +1,7 @@
 # 6xy_x_y_n
-Trying to prove that when n=6xy+x+y, ~n is an infinite set
+Trying to prove that when n=6xy+x+y and n=6xy+x-y and n=6xy-x-y, ~n is an infinite set
+
+In other words, when n is equal to all of those equations (where x and y are in the set Z and >0), is the set of all the positive integers that aren't in the set n infinite, or finite?
 
 
 ## Desmos Graphs
